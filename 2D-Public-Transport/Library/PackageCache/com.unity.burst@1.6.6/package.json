@@ -1,0 +1,21 @@
+{
+  "name": "com.unity.burst",
+  "displayName": "Burst",
+  "version": "1.6.6",
+  "unity": "2019.4",
+  "description": "Burst is a compiler that translates from IL/.NET bytecode to highly optimized native code using LLVM.",
+  "dependencies": {
+    "com.unity.mathematics": "1.2.1"
+  },
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/burst.git",
+    "type": "git",
+    "revision": "21ee3d01c6a374f6b01106f9eb6f1b43e113b1a3"
+  },
+  "_upm": {
+    "changelog": "### Fixed\r\n- Fixed hashing error that could occur with unbound generic type\r\n- Fixed a memory leak where during hashing we'd pin a GC object and never unpin and free it.\r\n- Fixed a bug where using `ReinterpretStore(someIndex, (ushort)someValue)` could cause an internal compiler error in Burst.\r\n- Fixed bug in static constructor ordering in the presence of indirect dependencies between static constructors (i.e. static constructor -> static method -> static constructor) that could result in a runtime crash\r\n- Fixed a bug that manifested when using IAP in UWP builds with Burst - we were scanning the assembly hierarchy too deep for Bursted types, which led to an `AssemblyResolutionException`.\r\n- Added workaround for \"cannot dlopen until fork() handlers have completed\" issue seen in macOS 12.3\r\n- Fixed compiler crash when trying to dynamically call `BurstCompiler.CompileFunctionPointer`  in Burst-compiled code\r\n- Fix compiler crash when the only usage of a static field was in a formatted exception string\r\n- Fixed a bug with `Span` and `ReadOnlySpan` types where if the indices used were not already 32-bit signed integers, an internal compiler error would occur if running with safety checks enabled.\r\n- A potential issue with the debug info mover pass, that meant it only affected the first entry point in a module\r\n- Fixed hashing bug that could occur when a function pointer type is used in a method parameter\r\n- Fixed hashing error that could occur in the presence of multiple synthesized explicit interface implementations with the same name and signature\r\n- Fixed a compiler crash if users used `__refvalue` or `__arglist` in Burst. Neither of these are supported, but now we will nicely tell you via a compiler error that they aren't supported.\r\n- Fixed a compiler error when trying to acquire the function pointer of a generic function from Bursted code.\r\n- Using a function only through a C# function pointer could cause a crash\r\n\r\n### Added\r\n- Support for __Unmanaged for non-extern functions\r\n\r\n### Removed\r\n\r\n### Changed\r\n- Used explicit namespace for UnityEditor.PackageManager.Events to avoid conflicts.\r\n\r\n### Known Issues"
+  },
+  "upmCi": {
+    "footprint": "ea04e418e626cd7eb49ac540f4fcf057230e4787"
+  }
+}

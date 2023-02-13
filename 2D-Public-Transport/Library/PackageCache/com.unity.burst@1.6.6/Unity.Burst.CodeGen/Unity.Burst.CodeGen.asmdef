@@ -1,0 +1,19 @@
+{
+    "name": "Unity.Burst.CodeGen",
+    "references": [
+        "Unity.Burst"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Unity.Burst.Cecil.dll",
+        "Unity.Burst.Cecil.Rocks.dll",
+        "Unity.Burst.Cecil.Pdb.dll"
+    ],
+    "autoReferenced": false,
+    "versionDefines": []
+}
