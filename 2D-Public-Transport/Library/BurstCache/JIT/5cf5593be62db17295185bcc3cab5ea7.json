@@ -1,0 +1,48 @@
+{
+  "ExternalFunctions": [
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility::Free",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.Free(void* memory, Unity.Collections.Allocator allocator) -> void_479f70b058c861a7dc409714995b8abe"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility::Malloc",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.UnsafeUtility.Malloc(long size, int alignment, Unity.Collections.Allocator allocator) -> void*_479f70b058c861a7dc409714995b8abe"
+    },
+    {
+      "Name": "Unity.Jobs.LowLevel.Unsafe.JobsUtility::get_IsExecutingJob",
+      "FullName": "Unity.Jobs.LowLevel.Unsafe.JobsUtility.get_IsExecutingJob() -> bool_479f70b058c861a7dc409714995b8abe"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::CheckWriteAndThrowNoEarlyOut_Injected",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckWriteAndThrowNoEarlyOut_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle handle) -> void_479f70b058c861a7dc409714995b8abe"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::CheckReadAndThrowNoEarlyOut_Injected",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckReadAndThrowNoEarlyOut_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle handle) -> void_479f70b058c861a7dc409714995b8abe"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::CheckDeallocateAndThrow_Injected",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckDeallocateAndThrow_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle handle) -> void_479f70b058c861a7dc409714995b8abe"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::IsTempMemoryHandle_Injected",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.IsTempMemoryHandle_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle handle) -> bool_479f70b058c861a7dc409714995b8abe"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::Create_Injected",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.Create_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ret) -> void_479f70b058c861a7dc409714995b8abe"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::Release_Injected",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.Release_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle handle) -> void_479f70b058c861a7dc409714995b8abe"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::GetTempMemoryHandle_Injected",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.GetTempMemoryHandle_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ret) -> void_479f70b058c861a7dc409714995b8abe"
+    },
+    {
+      "Name": "burst_abort",
+      "FullName": "unused.burst_abort(System.String errorId, System.String message) -> void"
+    }
+  ]
+}

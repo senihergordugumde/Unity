@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UXML xmlns:ui="UnityEngine.UIElements" xmlns:aui="UnityEditor.U2D.Animation">
+        <aui:WeightToolbar name="WeightToolbar">
+            <ui:PopupWindow name="PopupWindow" text="Weights">
+            <ui:Button name="AutoGenerateWeight" tooltip="Automatically generates weights between existing bones and vertices.">
+                <ui:Image name="AutoGenerateWeightImage" />
+                <ui:Label text ="Auto Weights"/>
+            </ui:Button>
+            <ui:Button name="WeightPainterSlider" tooltip="Controls the individual bone weights on selected vertices or geometry.">
+                <ui:Image name="WeightPainterSliderImage" />
+                <ui:Label text ="Weight Slider"/>
+            </ui:Button>
+            <ui:Button name="WeightPainterBrush" tooltip="Paints bone weights across vertices in selected geometry.">
+                <ui:Image name="WeightPainterBrushImage" />
+                <ui:Label text ="Weight Brush"/>
+            </ui:Button>
+            <ui:Button name="BoneInfluenceWidget" tooltip="Selects which bones influence the selected Sprite.">
+                <ui:Image name="BoneInfluenceWidgetImage" />
+                <ui:Label text ="Bone Influence"/>
+            </ui:Button>
+                <ui:Button name="SpriteInfluenceWidget" tooltip="Selects which Sprites influence the selected bone.">
+                    <ui:Image name="SpriteInfluenceWidgetImage" />
+                    <ui:Label text ="Sprite Influence"/>
+                </ui:Button>
+            </ui:PopupWindow>
+        </aui:WeightToolbar>
+</UXML>

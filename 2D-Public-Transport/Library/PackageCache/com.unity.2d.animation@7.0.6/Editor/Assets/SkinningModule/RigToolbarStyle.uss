@@ -1,0 +1,27 @@
+/**********************************************************************************************************************/
+/* RigToolbar                                                                                                         */
+/**********************************************************************************************************************/
+
+#CopyRigImage {
+    background-image: url("Icons/Light/Copy.png");
+}
+
+#PasteRigImage {
+    background-image: url("Icons/Light/Paste.png");
+}
+
+.Dark #CopyRigImage {
+    background-image: url("Icons/Dark/d_Copy.png");
+}
+
+.Dark #PasteRigImage {
+    background-image: url("Icons/Dark/d_Paste.png");
+}
+
+.Checked #CopyRigImage{
+    background-image: url("Icons/Selected/Copy.png");
+}
+
+.Checked #PasteRigImage {
+    background-image: url("Icons/Selected/Paste.png");
+}

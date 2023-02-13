@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UXML xmlns:ui="UnityEngine.UIElements" xmlns:aui="UnityEditor.U2D.Animation">
+  <aui:MeshToolbar name="MeshToolbar">
+      <ui:PopupWindow name="PopupWindow" text="Geometry">
+          <ui:Button name="GenerateGeometry" tooltip="Automatically generates mesh geometry.">
+              <ui:Image name="GenerateGeometryImage" />
+              <ui:Label text="Auto Geometry"/>
+          </ui:Button>
+          <ui:Button name="SelectGeometry" tooltip="Double-click a Sprite to edit its vertices. Add, remove, or change the position of its vertices to change the Sprite's geometry.">
+              <ui:Image name="SelectGeometryImage" />
+              <ui:Label text="Edit Geometry"/>
+          </ui:Button>
+          <ui:Button name="CreateVertex" tooltip="Creates new vertices on the selected geometry.">
+              <ui:Image name="CreateVertexImage" />
+              <ui:Label text="Create Vertex"/>
+          </ui:Button>
+          <ui:Button name="CreateEdge" tooltip="Creates new edges on selected geometry.">
+              <ui:Image name="CreateEdgeImage" />
+              <ui:Label text="Create Edge"/>
+          </ui:Button>
+          <ui:Button name="SplitEdge" tooltip="Splits the edges of selected geometry at the point you hover over.">
+              <ui:Image name="SplitEdgeImage" />
+              <ui:Label text="Split Edge"/>
+          </ui:Button>
+      </ui:PopupWindow>
+  </aui:MeshToolbar>
+</UXML>

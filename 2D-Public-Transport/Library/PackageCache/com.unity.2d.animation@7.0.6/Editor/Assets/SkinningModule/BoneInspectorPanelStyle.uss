@@ -1,0 +1,64 @@
+/**********************************************************************************************************************/
+/* BoneInspectorPanel                                                                                                         */
+/**********************************************************************************************************************/
+
+#BoneInspectorPanel {
+  height : 140px;
+}
+
+#BoneInspectorPanel Vector2Field FloatField > Label {
+  max-width : 10px;
+}
+
+#BoneInspectorPanel #BoneRotationField{
+  margin-left : 0px;
+  padding-left : 0px;
+}
+
+#BoneInspectorPanel #BoneRotationField > FloatInput{
+  flex : 6;
+  margin-left : 8px;
+}
+
+#BoneInspectorPanel #BoneRotationField  > Label {
+  margin-left : 0px;
+  padding-left : 0px;
+  min-width : auto;
+  padding-top: 0px;
+  padding-bottom:0px;
+}
+
+#BoneInspectorPanel #BoneColorField{
+  margin-left : 0px;
+  padding-left : 0px;
+}
+
+#BoneInspectorPanel #BoneColorField > IMGUIContainer{
+  flex: 6 0;
+  margin-left : 4px;
+  padding-left : 0px;
+}
+
+#BoneInspectorPanel #BoneColorField  > Label {
+  margin-left : 0px;
+  padding-left : 0px;
+  min-width : auto;
+  padding-top: 0px;
+  padding-bottom:0px;
+}
+
+#BoneInspectorPanel Vector2Field {
+  margin-right : 0px;
+  padding-right : 0px;
+  margin-left : 0px;
+  padding-left : 0px;
+}
+
+#BoneInspectorPanel #BonePositionField FloatInput {
+  margin-right : 0px;
+  padding-right : 0px;
+}
+
+.unity-composite-field__field-spacer {
+  width: 0px;
+}

@@ -1,0 +1,4 @@
+apiRules:
+  - exclude:
+      uid: UnityEditor.U2D.Common.FindTightRectJob
+      type: Struct

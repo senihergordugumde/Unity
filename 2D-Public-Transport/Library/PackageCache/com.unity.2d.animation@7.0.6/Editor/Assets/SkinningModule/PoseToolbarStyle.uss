@@ -1,0 +1,27 @@
+/**********************************************************************************************************************/
+/* PoseToolbar                                                                                                         */
+/**********************************************************************************************************************/
+
+#EditPoseImage {
+    background-image: url("Icons/Light/Edit_Pose.png");
+}
+
+#ResetPoseImage {
+    background-image: url("Icons/Light/character_Mode.png");
+}
+
+.Dark #EditPoseImage {
+    background-image: url("Icons/Dark/d_Edit_Pose.png");
+}
+
+.Dark #ResetPoseImage {
+    background-image: url("Icons/Dark/d_character_Mode.png");
+}
+
+.Checked #EditPoseImage{
+    background-image: url("Icons/Selected/Edit_Pose.png");
+}
+
+.Checked #ResetPoseImage {
+    background-image: url("Icons/Selected/character_Mode.png");
+}

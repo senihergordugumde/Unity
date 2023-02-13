@@ -1,0 +1,42 @@
+{
+  "name": "com.unity.2d.animation",
+  "version": "7.0.6",
+  "unity": "2021.2",
+  "unityRelease": "7f1",
+  "displayName": "2D Animation",
+  "description": "2D Animation provides all the necessary tooling and runtime components for skeletal animation using Sprites.",
+  "keywords": [
+    "2d",
+    "animation"
+  ],
+  "category": "2D",
+  "dependencies": {
+    "com.unity.2d.common": "6.0.3",
+    "com.unity.2d.sprite": "1.0.0",
+    "com.unity.modules.animation": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0"
+  },
+  "relatedPackages": {
+    "com.unity.2d.animation.tests": "7.0.6",
+    "com.unity.2d.common.tests": "6.0.3",
+    "com.unity.2d.psdimporter": "6.0.3"
+  },
+  "samples": [
+    {
+      "displayName": "Samples",
+      "description": "Various 2D Animation sample scenes to show different usage of the 2D Animation tooling for various outcomes.",
+      "path": "Samples~/AnimationSamples"
+    }
+  ],
+  "_upm": {
+    "changelog": "### Fixed\n- Fix Sprite Library Asset multi-editing in the Inspector window. (case 1417747)\n\n### Changed\n- Updated Visibility Tab documentation page.\n- Removed the 'Open' button from Sprite Library Asset and Sprite Library Source Asset inspectors."
+  },
+  "upmCi": {
+    "footprint": "f0a0a773302ae873d503ed7597f9604d29dd6066"
+  },
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/2d.git",
+    "type": "git",
+    "revision": "1c0695a81f795ed6aaafcb9d6a9c41b20e6d22bf"
+  }
+}

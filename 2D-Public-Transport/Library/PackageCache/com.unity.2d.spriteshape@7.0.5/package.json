@@ -1,0 +1,50 @@
+{
+  "name": "com.unity.2d.spriteshape",
+  "version": "7.0.5",
+  "unity": "2021.2",
+  "unityRelease": "7f1",
+  "displayName": "2D SpriteShape",
+  "description": "SpriteShape Runtime & Editor Package contains the tooling and the runtime component that allows you to create very organic looking spline based 2D worlds. It comes with intuitive configurator and a highly performant renderer.",
+  "keywords": [
+    "2d",
+    "shape",
+    "spriteshape",
+    "smartsprite",
+    "spline",
+    "terrain2d"
+  ],
+  "category": "2D",
+  "dependencies": {
+    "com.unity.mathematics": "1.1.0",
+    "com.unity.2d.common": "6.0.3",
+    "com.unity.2d.path": "5.0.2",
+    "com.unity.modules.physics2d": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Sprite Shape Samples",
+      "description": "Samples to get started with SpriteShape",
+      "path": "Samples~/Samples"
+    },
+    {
+      "displayName": "Sprite Shape Extras",
+      "description": "This sample has utility scripts that has various use-cases of SpriteShape",
+      "path": "Samples~/Extras"
+    }
+  ],
+  "relatedPackages": {
+    "com.unity.2d.spriteshape.tests": "7.0.5",
+    "com.unity.2d.common.tests": "6.0.3"
+  },
+  "_upm": {
+    "changelog": "### Fixed\n- 1421401 Fix case where SpriteShape throws ArgumentException error when checking position validity of a point added to Spline.\n- 1421403 Fix case where Tangent Data is always saved even when not in use for SpriteShapeRenderer when GeometryCache is active.\n- 1421404 Fix case where Shape of PolygonCollider2D doesn't update when Sprite Shape contains vertex at [0,0]."
+  },
+  "upmCi": {
+    "footprint": "3a3dc6a0510d3991a6ffd5a13b83fbb0c446ef5a"
+  },
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/2d.git",
+    "type": "git",
+    "revision": "b8ef9a9fa25d116a9e65e40bc9a7f86135688ed8"
+  }
+}

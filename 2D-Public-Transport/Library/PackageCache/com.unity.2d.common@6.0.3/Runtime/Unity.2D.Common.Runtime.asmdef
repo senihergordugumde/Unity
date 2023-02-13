@@ -1,0 +1,9 @@
+{
+    "name": "Unity.2D.Common.Runtime",
+    "references": [
+        "Unity.Mathematics"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true
+}

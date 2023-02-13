@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML xmlns:ui="UnityEngine.UIElements" xmlns:aui="UnityEditor.U2D.Animation">
+    <aui:RigToolbar name="RigToolbar">
+        <ui:PopupWindow name="PopupWindow" text="Rig">
+            <ui:Button name="CopyRig" tooltip="Copies the bone and mesh data in the current selection.">
+                <ui:Image name="CopyRigImage" />
+                <ui:Label text ="Copy Rig"/>
+            </ui:Button>
+            <ui:Button name="PasteRig" tooltip="Pastes the bone and mesh data onto the current selection.">
+                <ui:Image name="PasteRigImage" />
+                <ui:Label text ="Paste Rig"/>
+            </ui:Button>
+        </ui:PopupWindow>
+    </aui:RigToolbar>
+</UXML>

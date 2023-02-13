@@ -1,0 +1,48 @@
+{
+  "name": "com.unity.2d.tilemap.extras",
+  "displayName": "2D Tilemap Extras",
+  "version": "2.2.3",
+  "unity": "2021.1",
+  "description": "2D Tilemap Extras is a package that contains extra scripts for use with 2D Tilemap features in Unity. These include custom Tiles and Brushes for the Tilemap feature.\n\nThe following are included in the package:\nBrushes: GameObject Brush, Group Brush, Line Brush, Random Brush\nTiles: Animated Tile, Rule Tile, Rule Override Tile\nOther: Grid Information, Custom Rules for Rule Tile",
+  "keywords": [
+    "2d"
+  ],
+  "category": "2D",
+  "dependencies": {
+    "com.unity.modules.tilemap": "1.0.0",
+    "com.unity.2d.tilemap": "1.0.0",
+    "com.unity.ugui": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0"
+  },
+  "relatedPackages": {
+    "com.unity.2d.tilemap.extras.tests": "2.2.3"
+  },
+  "samples": [
+    {
+      "displayName": "Waterfall Animated Tile",
+      "description": "An example implementation of an Animated Tile.",
+      "path": "Samples~/WaterfallAnimatedTile"
+    },
+    {
+      "displayName": "Pipe Rule Tile",
+      "description": "An example implementation of a Rule Tile with rules matching four-way orthogonal neighbors.",
+      "path": "Samples~/PipeRuleTile"
+    },
+    {
+      "displayName": "Dungeon Rule Tile",
+      "description": "An example implementation of a Rule Tile with rules matching eight-way orthogonal and diagonal neighbors.",
+      "path": "Samples~/DungeonRuleTile"
+    }
+  ],
+  "_upm": {
+    "changelog": "### Fixed\r\n- [RuleOverrideTile] -Mark RuleOverrideTile InstanceTile as dirty when overriding RuleTile for the RuleOverrideTile changes\r\n- [RuleOverrideTile] -Fix undo for RuleOverrideTile when overriding RuleTile has changed\r\n- [RuleTileEditor] -Fix height for ReorderableList when extending the view for marking Rules"
+  },
+  "upmCi": {
+    "footprint": "b61e53482964bffe551c943f9be7fd78f73700f1"
+  },
+  "repository": {
+    "url": "https://github.com/Unity-Technologies/2d-extras.git",
+    "type": "git",
+    "revision": "23a879f6458e28d4082f486e6c2375ef4c281145"
+  }
+}
